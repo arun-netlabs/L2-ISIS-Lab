@@ -6,7 +6,7 @@ mgmt:
 
 topology:
   defaults:
-    pull: never
+    image-pull-policy: Never
   nodes:
     R1:
       kind: ceos
