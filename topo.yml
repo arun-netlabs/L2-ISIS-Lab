@@ -5,6 +5,8 @@ mgmt:
   ipv4-subnet: 172.31.31.0/24
 
 topology:
+  defaults:
+    pull: never
   nodes:
     R1:
       kind: ceos
