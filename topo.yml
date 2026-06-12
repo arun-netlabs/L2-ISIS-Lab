@@ -8,27 +8,27 @@ topology:
   nodes:
     R1:
       kind: ceos
-      image: ceos:latest
+      image: ceos:4.35.11-anthropic
       startup-config: configs/R1.cfg
       mgmt-ipv4: 172.31.31.11
     R2:
       kind: ceos
-      image: ceos:latest
+      image: ceos:4.35.11-anthropic
       startup-config: configs/R2.cfg
       mgmt-ipv4: 172.31.31.12
     R3:
       kind: ceos
-      image: ceos:latest
+      image: ceos:4.35.11-anthropic
       startup-config: configs/R3.cfg
       mgmt-ipv4: 172.31.31.13
     R4:
       kind: ceos
-      image: ceos:latest
+      image: ceos:4.35.11-anthropic
       startup-config: configs/R4.cfg
       mgmt-ipv4: 172.31.31.14
     R5:
       kind: ceos
-      image: ceos:latest
+      image: ceos:4.35.11-anthropic
       startup-config: configs/R5.cfg
       mgmt-ipv4: 172.31.31.15
 
