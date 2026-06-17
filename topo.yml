@@ -2,7 +2,7 @@ name: isis-lab
 
 mgmt:
   network: clab-mgmt
-  ipv4-subnet: 172.31.31.0/24
+  ipv4-subnet: 172.31.55.0/24
 
 topology:
   defaults:
