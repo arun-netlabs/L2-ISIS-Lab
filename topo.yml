@@ -2,7 +2,7 @@ name: isis-lab
 
 mgmt:
   network: clab-mgmt
-  ipv4-subnet: 172.31.55.0/24
+  ipv4-subnet: 172.31.66.0/24
 
 topology:
   defaults:
@@ -12,27 +12,27 @@ topology:
       kind: ceos
       image: ceos:4.35.11-anthropic
       startup-config: configs/R1.cfg
-      mgmt-ipv4: 172.31.55.11
+      mgmt-ipv4: 172.31.66.11
     R2:
       kind: ceos
       image: ceos:4.35.11-anthropic
       startup-config: configs/R2.cfg
-      mgmt-ipv4: 172.31.55.12
+      mgmt-ipv4: 172.31.66.12
     R3:
       kind: ceos
       image: ceos:4.35.11-anthropic
       startup-config: configs/R3.cfg
-      mgmt-ipv4: 172.31.55.13
+      mgmt-ipv4: 172.31.66.13
     R4:
       kind: ceos
       image: ceos:4.35.11-anthropic
       startup-config: configs/R4.cfg
-      mgmt-ipv4: 172.31.55.14
+      mgmt-ipv4: 172.31.66.14
     R5:
       kind: ceos
       image: ceos:4.35.11-anthropic
       startup-config: configs/R5.cfg
-      mgmt-ipv4: 172.31.55.15
+      mgmt-ipv4: 172.31.66.15
 
   links:
     # R1 Et1 <-> R2 Et1
